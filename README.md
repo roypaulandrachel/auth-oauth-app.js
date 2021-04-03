@@ -509,7 +509,7 @@ The device flow does not require a client secret, but it is required as strategy
       </th>
       <td>
 
-**Required**. A function that is called once the device and user codes were retrieved.
+**Required**. A function that is called once the device and user codes were retrieved
 
 The `onVerification()` callback can be used to pause until the user completes step 2, which might result in a better user experience.
 
@@ -1014,9 +1014,6 @@ import {
   WebFlowAuthOptions,
   OAuthAppDeviceFlowAuthOptions,
   GitHubAppDeviceFlowAuthOptions,
-  // auth interfaces
-  OAuthAppAuthInterface,
-  GitHubAuthInterface,
   // authentication object
   AppAuthentication,
   OAuthAppUserAuthentication,
